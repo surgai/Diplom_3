@@ -1,11 +1,13 @@
+
+
 class Urls:
     url_main = 'https://stellarburgers.nomoreparties.site/'
-    url_login = 'https://stellarburgers.nomoreparties.site/login'
-    url_profile_order_history = 'https://stellarburgers.nomoreparties.site/account/order-history'
-    url_register = 'https://stellarburgers.nomoreparties.site/register'
-    url_restore = 'https://stellarburgers.nomoreparties.site/forgot-password'
-    url_reset = 'https://stellarburgers.nomoreparties.site/reset-password'
-    url_profile = 'https://stellarburgers.nomoreparties.site/account/profile'
-    url_history = 'https://stellarburgers.nomoreparties.site/account/order-history'
-    url_feed = 'https://stellarburgers.nomoreparties.site/feed'
+    url_login = f"{url_main}login"
+    url_profile_order_history = f"{url_main}account/order-history"
+    url_register = f"{url_main}register"
+    url_restore = f"{url_main}forgot-password"
+    url_reset = f"{url_main}reset-password"
+    url_profile = f"{url_main}account/profile"
+    url_history = f"{url_main}account/order-history"
+    url_feed = f"{url_main}feed"
 

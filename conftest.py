@@ -17,11 +17,6 @@ def driver_do(request):
         driver.set_window_size(1920, 1080)
         driver.get(Urls.url_main)
 
-        #driver = webdriver.Chrome()
-        #chrome_options = webdriver.ChromeOptions()
-        #chrome_options.add_argument('--headless')
-        #chrome_options.add_argument('--window-size=1920,1080')
-        #request.cls.driver = driver
 
     elif request.param == 'firefox':
         firefox_options = webdriver.FirefoxOptions()

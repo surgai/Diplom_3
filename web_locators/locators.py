@@ -13,7 +13,6 @@ class MainPageLocators:
     INGREDIENT_DETAILS_POPUP = (By.XPATH, '//h2[text()="Детали ингредиента"]')  # Детали ингредиента
     CROSS_BUTTON = By.XPATH, '//button[contains(@class,"close")]'  # закрытие всплывающего окна
     INGREDIENT_COUNTER = (By.XPATH, '//ul[1]/a[1]//p[contains(@class, "num")]')  # Счетчик
-    #INGREDIENT_COUNTER = By.XPATH, '/html/body/div/div/main/section[2]/div/div/p'
     ORDER_BASKET = (By.XPATH, "//span[@class='constructor-element__text' and text()='Перетяните булочку сюда (низ)']")
     CREATE_ORDER_BUTTON = By.XPATH, '//button[text()="Оформить заказ"]'  # кнопка "Оформить заказ"
     ORDER_IDENTIFICATE = (By.XPATH, '//p[text()="идентификатор заказа"]')  # Идентификатор заказа
@@ -29,7 +28,8 @@ class AuthLoginLocators:
     LOGIN_BUTTON_ANY_FORMS = (By.XPATH, ".//button[text()='Войти']")
     FORGOT_PASSWORD = (By.XPATH, '//a[contains(@href, "/forgot-password")]')    #ссылка "Восстановить пароль"
     LOGIN_TEXT = (By.XPATH, ".//h2[text()='Вход']")
-
+    LOGIN_PROFILE_BUTTON_AUTH = By.XPATH, ".//button[text()='Войти в аккаунт']"
+    PROFILE_BUTTON_AUTH = By.LINK_TEXT, "Личный Кабинет"
 class AuthRegistreLocators:
     pass
 
@@ -48,7 +48,6 @@ class UserProfileLocators:
     PROFILE_BUTTON = (By.LINK_TEXT, 'Профиль')  # Кнопка "Профиль"
     ORDER_HISTORY_BUTTON = (By.LINK_TEXT, 'История заказов')  # Кнопка "История заказов"
     ENABLED_ORDER_HISTORY_BUTTON = (By.XPATH, '//ul/li[2]/a[contains(@class, "Account_link_active")]')  # Включенная кнопка "История заказов"
-    #LOGOUT_BUTTON = (By.XPATH, ".//button[text()='Выход']")
     LOGOUT_BUTTON = By.CLASS_NAME, "Account_button__14Yp3.text.text_type_main-medium.text_color_inactive"
     LK_INFO_MESSAGE = (By.XPATH, ".//p[contains(text(),'персональные данные')]")
 
