@@ -1,8 +1,9 @@
 import allure
-from web_locators import AuthForgotPasswordlocators, AuthLoginLocators
+from web_locators.locators import AuthForgotPasswordlocators, AuthLoginLocators
 from web_pages.base_page import BasePage
 
 class PasswordRecoveryPage(BasePage):
+
 
     @allure.step('Нажать на "Восстановить пароль"')
     def click_password_reset_link(self):

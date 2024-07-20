@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87cc3b7e-8f80-45af-918d-de1e56b45378" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Diplom_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Diplom_3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_locators/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_locators/locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_pages/auth_user_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_pages/auth_user_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_pages/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_pages/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_pages/main_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_pages/recovery_password_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_pages/recovery_password_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_pages/test_create_order_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_pages/test_create_order_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_pages/user_profile_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_pages/user_profile_page.py" afterDir="false" />
-    </list>
+    <list default="true" id="87cc3b7e-8f80-45af-918d-de1e56b45378" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,18 +24,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests in test_create_order.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conftest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.locators.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Diplom/Diplom_3&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests in test_create_order.py.executor": "Run",
+    "Python.conftest.executor": "Run",
+    "Python.locators.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/User/Diplom/GIT/Diplom_3",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Diplom3" type="PythonConfigurationType" factoryName="Python">
       <module name="Diplom_3" />
@@ -98,6 +85,10 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/web_pages/base_page.py</url>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web_pages/main_page.py</url>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

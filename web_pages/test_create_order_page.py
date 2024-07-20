@@ -5,6 +5,7 @@ from web_pages import BasePage
 
 
 class CreateOrderPage(BasePage):
+
     @allure.step('Нажимаем на заказ в списке Лента заказов')
     def click_order(self):
         self.click_on_element(OrdersPageLocators.ORDER_LINK)

@@ -6,6 +6,7 @@ from web_pages import BasePage
 
 class UserProfilePage(BasePage):
 
+
     @allure.step('Проверяем переход на страницу профиля')
     def check_switch_on_profile(self):
         self.wait_until_element_visibility(UserProfileLocators.PROFILE_BUTTON)

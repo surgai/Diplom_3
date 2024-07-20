@@ -2,6 +2,7 @@ from selenium.webdriver.common.by import By
 
 
 class MainPageLocators:
+    MODAL_ORDER_BOX = By.XPATH, "//*[@alt='loading animation']/parent::div"
     PROFILE_BUTTON2 = By.XPATH, ".//p[text()='Личный Кабинет']"
     PROFILE_BUTTON = By.LINK_TEXT, "Личный Кабинет"
     PROFILE_BUTTON3 = By.CLASS_NAME, "AppHeader_header__linkText__3q_va.ml-2"

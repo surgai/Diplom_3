@@ -5,6 +5,7 @@ from web_pages.base_page import BasePage
 
 class AuthUserPage(BasePage):
 
+
     @allure.step('Перейти на страницу авторизации по кнопке "Войти в аккаунт"')
     def click_personal_account_button(self):
         self.move_to_element_and_click(AuthLoginLocators.LOGIN_PROFILE_BUTTON_AUTH)

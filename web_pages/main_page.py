@@ -5,6 +5,8 @@ from web_locators import MainPageLocators, AuthLoginLocators, OrdersPageLocators
 from web_pages import BasePage
 
 class MainPage(BasePage):
+
+
     @allure.step('Перейти в "ЛК" по кнопке "Личный кабинет"')
     def click_on_account(self):
         self.click_on_element(MainPageLocators.PROFILE_BUTTON)
@@ -68,6 +70,7 @@ class MainPage(BasePage):
             order_id = self.get_actually_text(MainPageLocators.ORDER_ID)
         return f"{order_id}"
 
+
     @allure.step("Проверка открытия модального окна")
     def modal_box_is_open(self):
         if self.find_element_located(MainPageLocators.MODAL_ORDER_BOX):
@@ -81,6 +84,8 @@ class MainPage(BasePage):
     def click_close_modal_order(self):
         self.wait_until_element_visibility(MainPageLocators.CLOSE_MODAL_ORDER)
         self.click_on_element(MainPageLocators.CLOSE_MODAL_ORDER)
+
+
 
 
 
