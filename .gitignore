@@ -2,7 +2,13 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+.git
+pycache
+allure_results
+*.idea
+__pycache__
+.pytest_cache
+env
 # C extensions
 *.so
 
