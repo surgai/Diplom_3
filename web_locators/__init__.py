@@ -1,0 +1,1 @@
+from web_locators.locators import MainPageLocators, AuthLoginLocators, AuthRegistreLocators, AuthForgotPasswordlocators, UserProfileLocators, OrdersPageLocators
